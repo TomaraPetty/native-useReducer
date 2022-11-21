@@ -23,8 +23,8 @@ function UserForm() {
         value={state.last}
         onChange={e => dispatch({ last: e.target.value })}
       />
-      <div>First {state.first}</div>
-      <div>Last {state.last}</div>
+      <div>First: {state.first}</div>
+      <div>Last: {state.last}</div>
     </div>
   );
 }
